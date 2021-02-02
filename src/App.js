@@ -1,14 +1,12 @@
+import React from 'react';
 import './App.css';
-import Header from './components/challenges/day 1/Header';
-import Footer from './components/challenges/day 1/Footer';
+import 'bootstrap/dist/css/bootstrap.css';
+import Header from './components/day 1/Header';
+import Footer from './components/day 1/Footer';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
-	return (
-		<div className='App'>
-			<Header />
-			<Footer />
-		</div>
-	);
+	return <div></div>;
 }
 
 export default App;
